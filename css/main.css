@@ -1,0 +1,172 @@
+html {
+  font-family: Helvetica;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  background-color: #2676B2;
+  color: white;
+  height: 300px;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.logo-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.header-links {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.header-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header-links li a {
+  color: white;
+}
+
+.header {
+  background-image: linear-gradient(rgba(7, 52, 83, 0.52), rgba(7, 52, 83, 0.52)), url(https://unsplash.it/600/300/?image=1041);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  font-size: 70px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.header p {
+  color: white;
+  line-height: 1;
+}
+
+.post-author {
+  color: blue;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.post-author img {
+  width: 20px;
+}
+
+.post-author span {
+  margin-left: 20px;
+}
+
+.profile-image {
+  width: 60px;
+}
+
+.ad {
+  margin-bottom: 30px;
+}
+
+.ad figcaption {
+  font-size: 12px;
+}
+
+.ad img {
+  width: 200px;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: darkblue;
+}
+
+.bg-white {
+  background-color: white;
+  padding: 40px 0;
+}
+
+.bg-white h2 {
+  margin: 0;
+}
+
+.footer-posts {
+  display: flex;
+  flex-direction: column;
+  background-color: darkblue;
+}
+
+.footer-post {
+  padding: 140px 30px 30px 30px;
+  color: darkblue;
+  flex: 1;
+  height: 200px;
+  background-image: url(https://unsplash.it/200?random);
+  background-size: cover;
+  opacity: 0.5;
+  transition: all 1s ease;
+}
+
+.footer-post h6 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-post:hover {
+  color: white;
+  opacity: 1.0;
+}
+
+.footer-links {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.footer-nav {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-nav li a {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .post-links .post-link {
+    width: auto;
+    margin-bottom: auto;
+  }
+  .footer-posts {
+    flex-direction: row;
+  }
+  .footer-links {
+    text-align: left;
+  }
+  .footer-nav {
+    text-align: right;
+    padding: auto;
+    margin: 0;
+  }
+}
